@@ -1,0 +1,150 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.tomato-color {
+  color: tomato;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: gray;
+}
+
+h2 {
+  color: gray;
+  font-size: 40px;
+}
+
+.top-banner {
+  margin-top: 70px;
+}
+.top-banner p {
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, salmon);
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 8%;
+}
+
+.about-area {
+  background-image: url(images/7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+}
+
+.about-area img {
+  width: 65.5%;
+}
+
+#about-img {
+  padding-left: 200px;
+  padding-top: 64px;
+}
+
+#about-item {
+  padding-right: 150px;
+  padding-top: 100px;
+}
+
+.about-area h2 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-area p {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.recipie-area {
+  margin-bottom: 150px;
+}
+
+.recipie-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.recipie-part {
+  display: flex;
+  text-align: center;
+}
+
+.recipie-item {
+  width: 30%;
+  margin-left: 40px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px lightgray;
+}
+
+.recipie-item h3 {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.recipie-item p {
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.recipie-item img {
+  width: 90%;
+  padding-top: 20px;
+}
+
+footer h2 {
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+footer p {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  height: 256px;
+  text-align: center;
+}
+
+.stats-part {
+  display: flex;
+  box-shadow: 2px 2px 15px lightgray;
+  width: 70%;
+  margin-left: 220px;
+  padding-bottom: 40px;
+  margin-bottom: 150px;
+}
+
+.stats-item {
+  text-align: center;
+  width: 70%;
+}
+
+.stats-item h3 {
+  font-size: 48px;
+}
